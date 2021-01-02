@@ -1,4 +1,3 @@
-<?php
 // add javascript:void(0) to WordPress menu items with # url
 add_filter('walker_nav_menu_start_el', 'mswa_replace_hash', 999);
 function mswa_replace_hash($menu_item) {
